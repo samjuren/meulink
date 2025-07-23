@@ -17,6 +17,16 @@
   width: 400px;
   height: 400px;
   margin-left: 60px;
+  animation: slideX-img 2s;
+}
+
+@keyframes slideX-img {
+  from {
+    transform: translateX(90px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 
 .logo h1 {

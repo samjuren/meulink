@@ -1,3 +1,6 @@
+import { FiLink, FiArrowLeft, FiTrash } from "react-icons/fi";
+import "./links.css";
+
 export default function Links() {
   return (
     <div>
